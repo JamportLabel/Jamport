@@ -1,2 +1,2 @@
 # Jamport
-crazy website
+Source Code of the Official Jamport Website
