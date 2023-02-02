@@ -10,8 +10,7 @@
     right: 50px;
     position: absolute;
     padding: 10px;
-    width: 300px;
-    background-color: black;
+    width: 400px;
     text-align: center;
     font-weight: bold;
   }
@@ -22,15 +21,88 @@
 .Artists{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
-    padding-left:20px
+    padding-left:20px;
+    position: relative;
+    display: inline-block;
 }
 .Contact{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
-    padding-left:20px
+    padding-left:25px;
+    
 }
 .Story{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
-    padding-left:20px
+    padding-left:25px
 }
+.dropbtn {
+    background-color: black;
+    font-size: medium;
+    font-family: Inter;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: rgba(151, 151, 151, 1);
+    width: 64px;
+    height: 75px;
+    text-align: left;
+    position: relative;
+    padding-left:20px;
+  }
+  
+  .dropdown {
+    width: 90px;
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    min-width: 70px;
+    z-index: 1;
+    right: 254px;
+  }
+  
+  .dropdown-content a {
+    background-color: #2E2E2E;
+    color: rgba(151, 151, 151, 1);
+    padding: 8px 16px;
+    text-decoration: none;
+    display: grid;
+    width: 90px;
+    right: 15px;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #2E2E2E;
+color: white;}
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+    border-top-left-radius:  15%;
+    border-top-right-radius:  15%;
+    border-bottom-left-radius:  15%;
+    border-bottom-right-radius:  15%;
+    overflow: hidden;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: black;
+    color: white;
+  }
+  .Home:hover{
+    color: white;
+  }
+  .Contact:hover{
+    color: white;
+  }
+  .Story:hover{
+    color: white;
+  }
+  .Railey:hover{
+    color: white;
+  }
