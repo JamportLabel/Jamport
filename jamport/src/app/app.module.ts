@@ -9,6 +9,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { StoryComponent } from './pages/story/story.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './shared/modules/material/material.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ImpressumComponent } from './pages/impressum/impressum.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

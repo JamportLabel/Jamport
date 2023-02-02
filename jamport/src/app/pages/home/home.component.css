@@ -1,14 +1,14 @@
 :host {
     display: inline-block;
     width: 300px;
-    height: 200px;
+    height: 800px;
 }
 .scroll {
-    background-color: black;
+    background-color: blue;
     width: 850px;
-    margin-top: -100px; 
-    margin-left: -470px;
-    position:fixed; 
+    margin-top: 100%;
+    margin-left: -265px;
+    position: static; 
     top: 50%; 
     left: 50%;
     text-align: center;

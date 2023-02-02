@@ -4,6 +4,8 @@ body {
     background-color: black;
     font-family: Inter;
     font-weight: normal;
+    position:relative;
+    overflow-x: hidden;
   }
   @font-face {
     font-family: "Inter";
@@ -24,3 +26,5 @@ body {
     font-weight: lighter;
     font-style: normal;
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
