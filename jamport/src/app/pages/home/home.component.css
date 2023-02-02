@@ -1,0 +1,8 @@
+div.scroll {
+    background-color: #fed9ff;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
