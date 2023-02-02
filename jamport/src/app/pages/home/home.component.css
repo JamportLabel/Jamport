@@ -1,8 +1,16 @@
-div.scroll {
-    background-color: #fed9ff;
+.scroll {
+    background-color: black;
     width: auto;
     height: auto;
-    overflow-x: hidden;
-    overflow-y: auto;
+    margin-top: -100px; 
+    margin-left: -470px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
     text-align: center;
+}
+.temp{
+    width: 20px;
+    height: 50cm;
+    background-color: aqua;
 }
