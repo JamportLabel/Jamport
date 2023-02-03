@@ -117,3 +117,13 @@ color: white;}
   .dropdown:hover .icon {
     color: white;
   }
+    .glint {
+      filter: blur(300px);
+      border-radius: 500px;
+      background-color: rgba(118.99999290704727, 132.6000103354454, 255, 0.5);
+      width: 100%;
+      height: 431px;
+      position: absolute;
+      left: 0px;
+      top: -236px;
+    }
