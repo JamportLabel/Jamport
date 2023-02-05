@@ -2,18 +2,18 @@
 <div class="Navbar">
     <img src="assets/images/Jamport_transparent.png" class="Logo" height="60px">
     <div class="Link">
-    <a href="" class="Home">Home</a>
+    <a class="Home" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
     <div class="dropdown">
       <mat-icon class = "icon"aria-label="Example home icon">expand_more</mat-icon>
         <button class="dropbtn">Artists </button>
         <div class="dropdown-content">
-          <a href="artist/railey">Railey</a>
-          <a href="artist/trek">T R E K</a>
-          <a href="Nightfall">Nightfall</a>
-          <a href="Santiagi">Santiagi</a>
+          <a routerLink="/artist/railey" routerLinkActive="active" ariaCurrentWhenActive="page">Railey</a>
+          <a routerLink="/artist/trek" routerLinkActive="active" ariaCurrentWhenActive="page">T R E K</a>
+          <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Nightfall</a>
+          <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Santiagi</a>
         </div>
       </div>
-    <a href="" class="Contact">Contact</a>
-    <a href="" class="Story">Our Story</a>
+    <a class="Contact" routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a>
+    <a class="Story" routerLink="/story" routerLinkActive="active" ariaCurrentWhenActive="page">Our Story</a>
     </div>
 </div>
