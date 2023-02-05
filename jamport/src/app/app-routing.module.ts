@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { RaileyComponent } from './pages/artists/railey/railey.component';
+import { TrekComponent } from './pages/artists/trek/trek.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
@@ -10,6 +12,10 @@ const routes: Routes = [
   {path:'contact', component:ContactComponent},
   {path:'impressum', component:ImpressumComponent},
   {path:'story', component:StoryComponent},
+  {path:'artist', children:[
+    {path:'railey', component:RaileyComponent},
+    {path:'trek', component:TrekComponent},
+  ]},
 ];
 
 @NgModule({
