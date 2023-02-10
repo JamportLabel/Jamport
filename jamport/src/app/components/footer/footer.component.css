@@ -145,16 +145,14 @@ img.logo {
     text-decoration: none;
 }
 .About{
-    height: 230px;
-    width: 272px;
-    background-color: transparent;
     position: absolute;
+    width: 250px;
     top: 70%;
     bottom: 0;
-    left: 0;
+    left: 65%;
     right: 0;
-    margin-top: 60px;
-    margin-left: 1500px;
+    margin: 60px;
+    
 }
 .About_head{
     text-align: center;
@@ -168,3 +166,9 @@ img.logo {
     font-size: large;
     font-weight: bold;
 }
+
+
+
+
+
+    
