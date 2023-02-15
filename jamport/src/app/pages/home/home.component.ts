@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  roundedClick(): void {
+    // Your code here
+    console.log('Button clicked');
+  }
 }

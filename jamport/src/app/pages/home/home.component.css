@@ -9,3 +9,20 @@
     position: static;
     margin: 0 auto;
 }
+
+.rounded-button {
+    background-color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.rounded-button:hover {
+    background-color: #252525;
+    cursor: pointer;
+}
