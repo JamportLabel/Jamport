@@ -9,9 +9,8 @@ import { StoryComponent } from './pages/story/story.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MaterialModule } from './shared/modules/material/material.module';
+import { MatIconModule } from '@angular/material/icon';
 import { RaileyComponent } from './pages/artists/railey/railey.component';
-import { TrekComponent } from './pages/artists/trek/trek.component';
 
 @NgModule({
   declarations: [
@@ -23,13 +22,12 @@ import { TrekComponent } from './pages/artists/trek/trek.component';
     ContactComponent,
     ImpressumComponent,
     RaileyComponent,
-    TrekComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
