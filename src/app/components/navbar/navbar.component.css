@@ -120,9 +120,9 @@ color: white;}
     .glint {
       filter: blur(300px);
       border-radius: 500px;
-      background-color: rgba(118.99999290704727, 132.6000103354454, 255, 0.5);
+      background-color: rgba(119, 133, 255, 0.829);
       width: 100%;
-      height: 431px;
+      height: 231px;
       position: absolute;
       left: 0px;
       top: -236px;

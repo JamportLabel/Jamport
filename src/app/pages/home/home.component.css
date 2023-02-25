@@ -11,7 +11,7 @@
 }
 
 .rounded-button {
-    background-color: blue;
+    background-color: black;
     border: none;
     text-align: center;
     text-decoration: none;
@@ -20,9 +20,110 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    position: absolute;
+    top: 90vh;
+    left: 48.5vw;
 }
 
 .rounded-button:hover {
     background-color: #252525;
     cursor: pointer;
+}
+.glint_btn{
+    filter: blur(80px);
+    border-radius: 500px;
+    background-color: #949efc;
+    width: 131px;
+    height: 131px;
+    position: relative;
+    top: -3vh;
+    left: 46vw;
+  }
+  .down{
+    color: white;
+    position: relative;
+    left: -0.03vw;
+    top: 0.2vh;
+  }
+.Our_Artists{
+    position: relative;
+    top: 10vh;
+    background-color: transparent;
+    width: 100vw;
+    height: auto;
+    
+}
+.h1_art{
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 3vw;
+}
+.TREK_img{
+    position: relative;
+    right: 36vw;
+}
+.TREK_txt{
+    position: absolute;
+    color: white;
+    left: 8.5vw;
+    top: 21vh;
+    font-weight: 500;
+}
+.Railey_img{
+    position: relative;
+    right: 34vw;
+}
+.Railey_txt{
+    position: absolute;
+    color: white;
+    left: 18.7vw;
+    top: 21vh;
+    font-weight: 500;
+}
+.Latest_releases{
+    position: relative;
+    top: 20vh;
+    background-color: transparent;
+    width: 100vw;
+    height: auto;
+}
+.h1_releas{
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 3vw;
+}
+.Days{
+    position: relative;
+    top: 5vh;
+    left: 10vw;
+    display: flex;
+    border-radius: 12px;
+}
+.Days_spotify{
+    position: relative;
+    top: 10vh;
+    left: -25.5vw;
+    width: 570px;
+    height: 100px;
+}
+.Tides{
+    position: relative;
+    left: 45vw;
+    top: -38.5vh;
+    display: flex;
+    border-radius: 12px;
+}
+.HazyDays{
+    position: relative;
+    top: -33vh;
+    left: 9.5vw;
+    width: 570px;
+    height: 100px;
+}
+.Blank_tmp{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
