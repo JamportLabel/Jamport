@@ -21,22 +21,22 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 90vh;
-    left: 48.5vw;
+    top: 82vh;
+    left: 48vw;
 }
 
 .rounded-button:hover {
-    background-color: #252525;
+    background-color: #1b1b1b;
     cursor: pointer;
 }
 .glint_btn{
     filter: blur(80px);
     border-radius: 500px;
-    background-color: #949efc;
+    background-color: #949efc5e;
     width: 131px;
     height: 131px;
     position: relative;
-    top: -3vh;
+    top: -10vh;
     left: 46vw;
   }
   .down{
@@ -94,36 +94,121 @@
     position: relative;
     left: 3vw;
 }
-.Days{
+.Song1_YT{
     position: relative;
     top: 5vh;
-    left: 10vw;
+    left: 2vw;
     display: flex;
     border-radius: 12px;
+    width: 560px; 
+    height:315px;
 }
-.Days_spotify{
+.Song1_Spotify{
     position: relative;
-    top: 10vh;
-    left: -25.5vw;
+    top: 9.9vh;
+    left: -33.5vw;
     width: 570px;
     height: 100px;
 }
-.Tides{
+.Song2_YT{
     position: relative;
-    left: 45vw;
+    left: 35vw;
     top: -38.5vh;
     display: flex;
     border-radius: 12px;
 }
-.HazyDays{
+.Song2_Spotify{
     position: relative;
-    top: -33vh;
-    left: 9.5vw;
+    top: -33.5vh;
+    left: -0.5vw;
     width: 570px;
     height: 100px;
 }
-.Blank_tmp{
+.Song3_YT{
     position: relative;
+    left: 67vw;
+    top: -81.8vh;
+    display: flex;
+    border-radius: 12px;
+}
+.Song3_Spotify{
+    position: relative;
+    top: -76.9vh;
+    left: 31.5vw;
+    width: 570px;
+    height: 100px;
+}
+.Numbers{
+    position: relative;
+    top: -40vh;
+    background-color: transparent;
     width: 100vw;
-    height: 100vh;
+    height: auto;
+}
+.glint_num{
+    filter: blur(200px);
+    border-radius: 500px;
+    background-color: #7785ff83;
+    width: 100vw;
+    height: 131px;
+    position: relative;
+    top: 25vh;
+
+}
+.h1_numbers{
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 3vw;
+}
+.streams_num{
+    color: white;
+    text-align: start;
+    position: relative;
+    top: 4vh;
+    left: 10vw;
+    font-weight: 500;
+    font-size: 50px;
+}
+.streams_txt{
+    color: #8D8D8D;
+    text-align: start;
+    position: relative;
+    top: -0vh;
+    left: 12vw;
+    font-weight: 500;
+}
+.track_num{
+    color: white;
+    text-align: start;
+    position: relative;
+    top: -12.9vh;
+    left: 48vw;
+    font-weight: 500;
+    font-size: 50px;
+}
+.track_txt{
+    color: #8D8D8D;
+    text-align: start;
+    position: relative;
+    top: -16.9vh;
+    left: 46.4vw;
+    font-weight: 500;
+}
+.signed_num{
+    color: white;
+    text-align: start;
+    position: relative;
+    top: -29.9vh;
+    left: 81vw;
+    font-weight: 500;
+    font-size: 50px;
+}
+.signed_txt{
+    color: #8D8D8D;
+    text-align: start;
+    position: relative;
+    top: -33.9vh;
+    left: 79.2vw;
+    font-weight: 500;
 }

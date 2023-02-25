@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   roundedClick(): void {
     // Your code here
-    console.log('Button clicked');
+    console.log('Button clicked');  
   }
 }

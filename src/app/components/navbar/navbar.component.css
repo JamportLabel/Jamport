@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 99;
 }
 .Link{
     right: 50px;
@@ -125,5 +126,5 @@ color: white;}
       height: 231px;
       position: absolute;
       left: 0px;
-      top: -236px;
+      top: -350px;
     }
