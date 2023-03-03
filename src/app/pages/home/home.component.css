@@ -50,7 +50,7 @@
     top: 10vh;
     background-color: transparent;
     width: 100vw;
-    height: auto;
+    height: 250px;
     
 }
 .h1_art{
@@ -59,40 +59,88 @@
     position: relative;
     left: 3vw;
 }
+.Images{
+    position: relative;
+    left: -2vw;
+    background-color: transparent;
+    height: 170px;
+    width: 1000px;
+}
 .TREK_img{
     position: relative;
-    right: 36vw;
+    right: 2vw;
 }
 .TREK_txt{
     position: absolute;
     color: white;
-    left: 8.5vw;
-    top: 21vh;
+    left: 6.8vw;
+    top: 14.7vh;
     font-weight: 500;
 }
 .Railey_img{
     position: relative;
-    right: 34vw;
+    right: 0vw;
 }
 .Railey_txt{
     position: absolute;
     color: white;
-    left: 18.7vw;
-    top: 21vh;
+    left: 17.1vw;
+    top: 14.7vh;
+    font-weight: 500;
+}
+.mirage_img{
+    position: relative;
+    right: -2vw;
+    
+}
+.mirage_txt{
+    position: absolute;
+    color: white;
+    left: 26vw;
+    top: 14.7vh;
+    font-weight: 500;
+}
+.maraville_img{
+    position: relative;
+    right: -4vw;
+    
+}
+.maraville_txt{
+    position: absolute;
+    color: white;
+    left: 36.1vw;
+    top: 14.7vh;
+    font-weight: 500;
+}
+.hamie_img{
+    position: relative;
+    right: -6vw;
+}
+.hamie_txt{
+    position: absolute;
+    color: white;
+    left: 46.3vw;
+    top: 14.7vh;
     font-weight: 500;
 }
 .Latest_releases{
     position: relative;
-    top: 20vh;
+    top: 15vh;
     background-color: transparent;
     width: 100vw;
-    height: auto;
+    height: 600px;
 }
 .h1_releas{
     color: white;
     text-align: start;
     position: relative;
     left: 3vw;
+}
+.releases{
+    background-color: transparent;
+    height: 550px;
+    width: 100%;
+    left: 2vw;
 }
 .Song1_YT{
     position: relative;
@@ -113,13 +161,13 @@
 .Song2_YT{
     position: relative;
     left: 35vw;
-    top: -38.5vh;
+    top: -38.3vh;
     display: flex;
     border-radius: 12px;
 }
 .Song2_Spotify{
     position: relative;
-    top: -33.5vh;
+    top: -33.6vh;
     left: -0.5vw;
     width: 570px;
     height: 100px;
@@ -127,23 +175,23 @@
 .Song3_YT{
     position: relative;
     left: 67vw;
-    top: -81.8vh;
+    top: -82vh;
     display: flex;
     border-radius: 12px;
 }
 .Song3_Spotify{
     position: relative;
-    top: -76.9vh;
+    top: -77.2vh;
     left: 31.5vw;
     width: 570px;
     height: 100px;
 }
 .Numbers{
     position: relative;
-    top: -65vh;
+    top: 5vh;
     background-color: transparent;
     width: 100vw;
-    height: auto;
+    height: 380px;
 }
 .glint_num{
     filter: blur(200px);
