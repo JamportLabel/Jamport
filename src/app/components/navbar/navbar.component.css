@@ -1,4 +1,3 @@
-
 .Navbar{
     background-color: black;
     width: 100%;
@@ -9,13 +8,19 @@
     z-index: 99;
 }
 .Link{
-    right: 50px;
+    right: 5px;
     position: absolute;
     padding: 10px;
     width: 400px;
     text-align: center;
     font-weight: bold;
-  }
+}
+
+@media (max-width: 714px)
+{
+  /*Tiny screen size -> Change navbar to menu*/
+}
+
 .Home{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
