@@ -2,12 +2,17 @@
     display: inline-block;
     width: 100%;
 }
+
 .scroll {
     height:auto;
     width: 100%;
-    text-align: center;
     position: static;
     margin: 0 auto;
+}
+
+.Logo {
+    text-align: center;
+    width: 100%;
 }
 
 .rounded-button {
@@ -15,248 +20,108 @@
     border: none;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 82vh;
-    left: 48vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .rounded-button:hover {
     background-color: #1b1b1b;
     cursor: pointer;
 }
+
 .glint_btn{
     filter: blur(80px);
     border-radius: 500px;
-    background-color: #949efc5e;
-    width: 131px;
-    height: 131px;
-    position: relative;
-    top: -10vh;
-    left: 46vw;
-  }
-  .down{
-    color: white;
-    position: relative;
-    left: -0.03vw;
-    top: 0.2vh;
-  }
-.Our_Artists{
-    position: relative;
-    top: 10vh;
-    background-color: transparent;
-    width: 100vw;
-    height: 250px;
-    
-}
-.h1_art{
-    color: white;
-    text-align: start;
-    position: relative;
-    left: 3vw;
-}
-.Images{
-    position: relative;
-    left: -2vw;
-    background-color: transparent;
-    height: 170px;
-    width: 1000px;
-}
-.TREK_img{
-    position: relative;
-    right: 2vw;
-}
-.TREK_txt{
+    background-color: #4d5ce0c4;
+    width: 120px;
+    height: 120px;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.down{
     color: white;
-    left: 6.8vw;
-    top: 14.7vh;
-    font-weight: 500;
+    display: inline-block;
+    margin: 0 auto;
 }
-.Railey_img{
+
+.scroll_down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    right: 0vw;
 }
-.Railey_txt{
-    position: absolute;
+
+.Artists {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.Releases {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.Artist {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Artist_Text {
     color: white;
-    left: 17.1vw;
-    top: 14.7vh;
-    font-weight: 500;
 }
-.mirage_img{
+
+.Title {
     position: relative;
-    right: -2vw;
-    
-}
-.mirage_txt{
-    position: absolute;
+    left: 40px;
     color: white;
-    left: 26vw;
-    top: 14.7vh;
-    font-weight: 500;
 }
-.maraville_img{
-    position: relative;
-    right: -4vw;
-    
-}
-.maraville_txt{
-    position: absolute;
-    color: white;
-    left: 36.1vw;
-    top: 14.7vh;
-    font-weight: 500;
-}
-.hamie_img{
-    position: relative;
-    right: -6vw;
-}
-.hamie_txt{
-    position: absolute;
-    color: white;
-    left: 46.3vw;
-    top: 14.7vh;
-    font-weight: 500;
-}
-.Latest_releases{
-    position: relative;
-    top: 15vh;
-    background-color: transparent;
-    width: 100vw;
-    height: 600px;
-}
-.h1_releas{
-    color: white;
-    text-align: start;
-    position: relative;
-    left: 3vw;
-}
-.releases{
-    background-color: transparent;
-    height: 550px;
+
+.Center_Horizontal {
     width: 100%;
-    left: 2vw;
-}
-.Song1_YT{
-    position: relative;
-    top: 9%;
-    left: 3%;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    border-radius: 12px;
-    width: 560px; 
-    height:315px;
 }
-.Song1_Spotify{
-    position: relative;
-    top: 17%;
-    left: -32.5%;
-    width: 570px;
-    height: 100px;
+
+.Number {
+    text-align: center;
 }
-.Song2_YT{
-    position: relative;
-    left: 35%;
-    top: -67%;
+
+.Numbers_Aligned {
     display: flex;
-    border-radius: 12px;
+    justify-content: space-between;
+    width: 75%;
 }
-.Song2_Spotify{
-    position: relative;
-    top: -59.5%;
-    left: -0.5%;
-    width: 570px;
-    height: 100px;
+
+.Numbers_Big {
+    color: white;
 }
-.Song3_YT{
-    position: relative;
-    left: 66.5%;
-    top: -143%;
-    display: flex;
-    border-radius: 12px;
+
+.Numbers_Low {
+    color: rgb(156, 156, 156);
 }
-.Song3_Spotify{
-    position: relative;
-    top: -136%;
-    left: 31%;
-    width: 570px;
-    height: 100px;
-}
-.Numbers{
-    position: relative;
-    top: 5vh;
-    background-color: transparent;
-    width: 100vw;
-    height: 380px;
-}
-.glint_num{
+
+.glint_num {
     filter: blur(200px);
     border-radius: 500px;
-    background-color: #7785ff83;
+    background-color: #7785ffc5;
     width: 100vw;
     height: 131px;
     position: relative;
     top: 25vh;
-
-}
-.h1_numbers{
-    color: white;
-    text-align: start;
-    position: relative;
-    left: 3vw;
-}
-.streams_num{
-    color: white;
-    text-align: start;
-    position: relative;
-    top: 4vh;
-    left: 10vw;
-    font-weight: 500;
-    font-size: 50px;
-}
-.streams_txt{
-    color: #8D8D8D;
-    text-align: start;
-    position: relative;
-    top: -0vh;
-    left: 12vw;
-    font-weight: 500;
-}
-.track_num{
-    color: white;
-    text-align: start;
-    position: relative;
-    top: -12.9vh;
-    left: 48vw;
-    font-weight: 500;
-    font-size: 50px;
-}
-.track_txt{
-    color: #8D8D8D;
-    text-align: start;
-    position: relative;
-    top: -16.9vh;
-    left: 46.4vw;
-    font-weight: 500;
-}
-.signed_num{
-    color: white;
-    text-align: start;
-    position: relative;
-    top: -29.9vh;
-    left: 81vw;
-    font-weight: 500;
-    font-size: 50px;
-}
-.signed_txt{
-    color: #8D8D8D;
-    text-align: start;
-    position: relative;
-    top: -33.9vh;
-    left: 79.2vw;
-    font-weight: 500;
 }

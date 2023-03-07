@@ -1,49 +1,92 @@
 <div class="scroll">
     <div style="height: 40vh;"></div>
-    <img src="assets/images/Jamport_transparent.png" style="width: 600px">
-    <p style="font-size: 32px; color: white; margin: 0px;">We help artists to reach their full potential</p>
-    <div style="height: 30vh;"></div>
-    <div class="glint_btn">
-        
+    <div class="Logo">
+        <img src="assets/images/Jamport_transparent.png" style="width: 600px">
+        <p style="font-size: 32px; color: white; margin: 0px;">We help artists to reach their full potential</p>
     </div>
-    <button class="rounded-button" (click)="roundedClick()" onclick="location.href='#section2'">
-        <mat-icon class="down" aria-label="Example home icon">arrow_downward</mat-icon>
-    </button>
+    <div style="height: 20vh;"></div>
+    <div class="scroll_down">
+        <div class="glint_btn"></div>
+        <button class="rounded-button" (click)="roundedClick()" onclick="location.href='#section2'">
+            <mat-icon class="down" aria-label="Example home icon">arrow_downward</mat-icon>
+        </button>
+    </div>
+    
     <div id="section2"></div>
-    <div class="Our_Artists">
-        <h1 class="h1_art">Our artists:</h1>
-        <div class="Images">
-            <a href="/artist/trek" class="TREK_img"><img src="assets\images\trek.png" style="height: 150px;"></a>
-            <p class="TREK_txt">T R E K</p>
-            <a href="/artist/railey" class="Railey_img"><img src="assets\images\railey.png" style="height: 150px;"></a>
-            <p class="Railey_txt">Railey</p>
-            <a href="/artist/mirage" class="mirage_img"><img src="assets\images\mirage.png" style="height: 150px;"></a>
-            <p class="mirage_txt">M I R A G E</p>
-            <a href="/artist/maraville" class="maraville_img"><img src="assets\images\maraville.png" style="height: 150px;"></a>
-            <p class="maraville_txt">Maraville</p>
-            <a href="/artist/hamie" class="hamie_img"><img src="assets\images\hamie.png" style="height: 150px;"></a>
-            <p class="hamie_txt">Hamie</p>
+    <div>
+        <h1 class="Title">Our artists:</h1>
+        <div class="Center_Horizontal">
+            <div class="Artists">
+                <div class="Artist">
+                    <a href="/artist/trek" class="TREK_img"><img src="assets\images\trek.png" style="height: 150px;"></a>
+                    <p class="Artist_Text">T R E K</p>
+                </div>
+                <div class="Artist">
+                    <a href="/artist/railey" class="Railey_img"><img src="assets\images\railey.png" style="height: 150px;"></a>
+                    <p class="Artist_Text">Railey</p>
+                </div>
+                <div class="Artist">
+                    <a href="/artist/mirage" class="mirage_img"><img src="assets\images\mirage.png" style="height: 150px;"></a>
+                    <p class="Artist_Text">M I R A G E</p>
+                </div>
+                <div class="Artist">
+                    <a href="/artist/maraville" class="maraville_img"><img src="assets\images\maraville.png"
+                            style="height: 150px;"></a>
+                    <p class="Artist_Text">Maraville</p>
+                </div>
+                <div class="Artist">
+                    <a href="/artist/hamie" class="hamie_img"><img src="assets\images\hamie.png" style="height: 150px;"></a>
+                    <p class="Artist_Text">Hamie</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="Latest_releases">
-        <h1 class="h1_releas">Latest releases:</h1>
-        <div class="releases">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/I8GoecmxZPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="Song1_YT"></iframe>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/73aLkilHSI0bobAaBNFYI6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="Song1_Spotify"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/saRLzoIbUg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="Song2_YT"></iframe>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3qdxfVK7ckAchV2mc8bLud?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="Song2_Spotify"></iframe>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LNlND4UAtCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="Song3_YT"></iframe>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3iCPaFUwbHbDmxN1iBZfLv?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="Song3_Spotify"></iframe>
+    <div>
+        <h1 class="Title">Latest releases:</h1>
+        <div class="Center_Horizontal">
+            <div class="Releases">
+                <div class="Release">
+                    <iframe src="https://www.youtube-nocookie.com/embed/I8GoecmxZPg" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/73aLkilHSI0bobAaBNFYI6?utm_source=generator" frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="Release">
+                    <iframe src="https://www.youtube-nocookie.com/embed/saRLzoIbUg8" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/album/3qdxfVK7ckAchV2mc8bLud?utm_source=generator" frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="Release">
+                    <iframe src="https://www.youtube-nocookie.com/embed/LNlND4UAtCg" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/3iCPaFUwbHbDmxN1iBZfLv?utm_source=generator" frameBorder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+            </div>
         </div>
-    </div>
     <div class="Numbers">
         <div class="glint_num"></div>
-        <h1 class="h1_numbers">Our label in numbers:</h1>
-        <h2 class="streams_num">206.459+</h2>
-        <p class="streams_txt">generated streams</p>
-        <h2 class="track_num">16</h2>
-        <p class="track_txt">released tracks</p>
-        <h2 class="signed_num">5</h2>
-        <p class="signed_txt">signed artists</p>
+        <h1 class="Title">Our label in numbers:</h1>
+        <div class="Center_Horizontal">
+            <div class="Numbers_Aligned">
+                <div class="Number">
+                    <h2 class="Numbers_Big">206.459+</h2>
+                    <p class="Numbers_Low">generated streams</p>
+                </div>
+                <div class="Number">
+                    <h2 class="Numbers_Big">20</h2>
+                    <p class="Numbers_Low">released tracks</p>
+                </div>
+                <div class="Number">
+                    <h2 class="Numbers_Big">5</h2>
+                    <p class="Numbers_Low">signed artists</p>
+                </div>
+            </div>
+        </div>
     </div> 
 </div>
