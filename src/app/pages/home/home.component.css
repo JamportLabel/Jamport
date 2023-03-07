@@ -71,6 +71,8 @@
     display: flex;
     justify-content: space-between;
     width: 85%;
+    position: relative;
+    left: -3.75vw;
 }
 
 .Artist {
