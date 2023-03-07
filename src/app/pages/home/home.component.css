@@ -77,23 +77,21 @@
     display: flex;
     justify-content: space-between;
     width: 75%;
+    max-width: 1150px;
+    gap: 20px;
 }
 
 .Releases {
     display: flex;
-    justify-content:left;
+    justify-content: center;
     width: 85%;
-    position: relative;
-    left: -3.75vw;
     gap: 40px;
 }
 @media (max-width:1817px) {
     .Releases {
         display: flex;
-        flex-wrap:wrap;
-        justify-content:center;
-        position: relative;
-        left: -3.75vw;
+        flex-wrap: wrap;
+        justify-content: center;
         width: 85%;
         gap: 40px;
     }
