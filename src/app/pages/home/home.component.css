@@ -69,10 +69,22 @@
 
 .Releases {
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
     width: 85%;
     position: relative;
     left: -3.75vw;
+    gap: 40px;
+}
+@media (max-width:1817px) {
+    .Releases {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        width: 85%;
+        position: relative;
+        left: -3.75vw;
+        gap: 40px;
+    }
 }
 
 .Artist {
