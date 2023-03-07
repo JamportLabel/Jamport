@@ -1,3 +1,8 @@
+:host {
+    display: inline-block;
+    width: 100%;
+}
+
 .scroll {
     height:auto;
     width: 100%;
@@ -92,9 +97,9 @@
         display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 85%;
         position: relative;
         left: -3.75vw;
+        width: 85%;
         gap: 40px;
     }
 }
