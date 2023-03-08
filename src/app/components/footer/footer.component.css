@@ -4,11 +4,13 @@
     justify-content: center;
     text-align: center;
 }
+
 img.logo {
     width: 149px;
     height: auto;
     border-radius: 10%;
 }
+
 .Flex {
     display: flex;
     width: 93%;
@@ -23,6 +25,7 @@ img.logo {
     font-size: 19px;
     margin-bottom: -15px;
 }
+
 .Content{
     color: #8D8D8D;
     font-size: 17px;
@@ -30,15 +33,42 @@ img.logo {
     margin-bottom: -15px;
     text-decoration: none;
 }
+
 .Block_1 {
     text-align: left;
     width: 400px;
 }
+
 .Block_3 {
     margin-left: 100px;
+    min-width: 300px;
     width: 300px;
     text-align: center;
 }
+
 .Bottom_text {
     text-align: center;
+}
+
+@media (max-width: 800px) {
+    .Flex {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Block_3 {
+        margin-top: 100px;
+        margin-left: 0px;
+        min-width: 400px;
+        width: 400px;
+        text-align: center;
+    }
+
+    img.logo {
+        display: none;
+    }
 }
