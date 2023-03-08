@@ -1,9 +1,7 @@
 .footer{
-    position: relative;
-    bottom: 0vh;
     width: 100%;
     height: 400px;
-    background-color: transparent;
+    background-color: red;
 }
 img.logo {
     width: 149px;
@@ -151,4 +149,3 @@ img.logo {
     font-size: large;
     font-weight: bold;
 }
-

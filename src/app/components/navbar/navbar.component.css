@@ -91,11 +91,13 @@
   }
   
 
-  .dropdown-content a:hover  {background-color: #2E2E2E;
-color: white;}
+  .dropdown-content a:hover  {
+    background-color: #2E2E2E;
+    color: white;
+  }
   
   .dropdown:hover .dropdown-content {
-    display:block;
+    display: block;
     border-top-left-radius:  15%;
     border-top-right-radius:  15%;
     border-bottom-left-radius:  15%;
@@ -123,7 +125,7 @@ color: white;}
   .dropdown:hover .icon {
     color: white;
   }
-    .glint {
+  .glint {
       filter: blur(300px);
       border-radius: 500px;
       background-color: rgba(119, 133, 255, 0.829);
@@ -132,4 +134,4 @@ color: white;}
       position: absolute;
       left: 0px;
       top: -350px;
-    }
+  }
