@@ -20,12 +20,12 @@ img.logo {
 .Header{
     font-weight: bolder;
     color: white;
-    font-size: larger;
+    font-size: 19px;
     margin-bottom: -15px;
 }
 .Content{
     color: #8D8D8D;
-    font-size: large;
+    font-size: 17px;
     font-weight: bold;
     margin-bottom: -15px;
     text-decoration: none;
@@ -37,6 +37,7 @@ img.logo {
 .Block_3 {
     margin-left: 100px;
     width: 300px;
+    text-align: center;
 }
 .Bottom_text {
     text-align: center;

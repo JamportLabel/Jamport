@@ -28,7 +28,7 @@
 }
 
 .rounded-button {
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     border: none;
     text-align: center;
     text-decoration: none;
@@ -43,7 +43,7 @@
 }
 
 .rounded-button:hover {
-    background-color: #1b1b1b;
+    background-color: #242424;
     cursor: pointer;
 }
 
