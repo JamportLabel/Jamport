@@ -1,0 +1,19 @@
+.Name{
+    position: relative;
+    left: 40px;
+    display: flex;
+    height: 150px;
+}
+.Name_Name{
+    display: flex;
+    padding-left: 30px;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 110px;
+    max-width: 1150px;
+    gap: 4px;
+}
+.Title{
+    position: relative;
+    left: 40px;
+}
