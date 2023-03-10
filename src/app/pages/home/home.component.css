@@ -1,10 +1,9 @@
 .scroll {
-    height:auto;
+    height: auto;
     width: 100%;
     position: static;
     margin: 0 auto;
 }
-
 .Slogan {
     font-size: 2.4vw;
     color: white;
