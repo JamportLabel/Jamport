@@ -15,11 +15,122 @@
     text-align: center;
     font-weight: bold;
 }
+.Hamburger{
+  display: none;
+}
 
 @media (max-width: 714px)
 {
-  /*Tiny screen size -> Change navbar to menu*/
+  .ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+  .line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:rgba(151, 151, 151, 1);
+    stroke-width:5.5;
+    stroke-linecap:round;
+  }
+  .ham7 .top {
+    stroke-dasharray: 40 82;
+  }
+  .ham7 .middle {
+    stroke-dasharray: 40 111;
+  }
+  .ham7 .bottom {
+    stroke-dasharray: 40 161;
+  }
+  .ham7.active .top {
+    stroke-dasharray: 17 82;
+    stroke-dashoffset: -62px;
+  }
+  .ham7.active .middle {
+    stroke-dashoffset: 23px;
+  }
+  .ham7.active .bottom {
+    stroke-dashoffset: -83px;
+  }
+  .Link{
+    display: none;
+  }
+  .hamburger{
+    display:flex;
+    position: relative; left: 30%;
+  }
+  .dropbtn_2 {
+    background-color: transparent;
+      white-space: nowrap;
+      font-size: medium;
+      font-family: Inter;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      color: rgba(151, 151, 151, 1);
+      width: 64px;
+      height: 75px;
+      text-align: left;
+      position: relative;
+      padding-left:20px;
+    }
+    
+    .dropdown_2 {
+      width: 90px;
+      position: relative;
+      display: inline-block;
+      
+    }
+    
+    .dropdown_2-content {
+      display: none;
+      position: fixed;
+      min-width: 70px;
+      z-index: 1;
+      right: 12%;
+    }
+    
+    .dropdown_2-content a {
+      background-color: #2E2E2E;
+      color: rgba(151, 151, 151, 1);
+      padding: 8px 16px;
+      text-decoration: none;
+      display: grid;
+      width: 90px;
+      right: 15px;
+    }
+    
+  
+    .dropdown_2-content a.active  {
+      background-color: #2E2E2E;
+      color: white;
+    }
+    
+    .dropdown_2.active .dropdown_2-content {
+      display: block;
+      border-top-left-radius:  15%;
+      border-top-right-radius:  15%;
+      border-bottom-left-radius:  15%;
+      border-bottom-right-radius:  15%;
+      overflow: hidden;
+    }
+    
+    .dropdown_2.active .dropbtn_2 {
+      background-color: black;
+      color: white;
+    }
 }
+
 
 .Home{
     color: rgba(151, 151, 151, 1);
