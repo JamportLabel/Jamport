@@ -15,12 +15,16 @@
     text-align: center;
     font-weight: bold;
 }
-.Hamburger{
+.hamburger{
   display: none;
 }
 
 @media (max-width: 714px)
 {
+  .hamburger{
+    display:flex;
+    position: relative; left: 20%;
+  }
   .ham {
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -65,10 +69,6 @@
   .Link{
     display: none;
   }
-  .hamburger{
-    display:flex;
-    position: relative; left: 30%;
-  }
   .dropbtn_2 {
     background-color: transparent;
       white-space: nowrap;
@@ -82,7 +82,7 @@
       height: 75px;
       text-align: left;
       position: relative;
-      padding-left:20px;
+      padding-left:30px;
     }
     
     .dropdown_2 {
@@ -97,7 +97,6 @@
       position: fixed;
       min-width: 70px;
       z-index: 1;
-      right: 12%;
     }
     
     .dropdown_2-content a {
@@ -111,12 +110,12 @@
     }
     
   
-    .dropdown_2-content a.active  {
+    .dropdown_2-content a:hover  {
       background-color: #2E2E2E;
       color: white;
     }
     
-    .dropdown_2.active .dropdown_2-content {
+    .dropdown_2:hover .dropdown_2-content {
       display: block;
       border-top-left-radius:  15%;
       border-top-right-radius:  15%;
@@ -125,7 +124,7 @@
       overflow: hidden;
     }
     
-    .dropdown_2.active .dropbtn_2 {
+    .dropdown_2:hover .dropbtn_2 {
       background-color: black;
       color: white;
     }
