@@ -23,7 +23,7 @@
 {
   .hamburger{
     display:flex;
-    position: relative; left: 20%;
+    position: relative; left: 15%;
   }
   .ham {
     cursor: pointer;
