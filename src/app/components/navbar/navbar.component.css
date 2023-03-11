@@ -110,12 +110,12 @@
     }
     
   
-    .dropdown_2-content a:active  {
+    .dropdown_2-content a:focus  {
       background-color: #2E2E2E;
       color: white;
     }
     
-    .dropdown_2:active .dropdown_2-content {
+    .dropdown_2:focus .dropdown_2-content {
       display: block;
       border-top-left-radius:  15%;
       border-top-right-radius:  15%;
@@ -124,7 +124,7 @@
       overflow: hidden;
     }
     
-    .dropdown_2:active .dropbtn_2 {
+    .dropdown_2:focus .dropbtn_2 {
       background-color: black;
       color: white;
     }
