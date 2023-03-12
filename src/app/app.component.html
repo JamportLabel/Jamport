@@ -1,5 +1,5 @@
 <app-navbar></app-navbar>
-<main [@crossFade]="o.isActivated ? o.activatedRoute : ''" class="content">
+<main [@crossFadeAnimation]="o.isActivated ? o.activatedRoute : ''" class="content" style="min-height: 100vh;">
     <router-outlet #o="outlet"></router-outlet>
 </main>
 <app-footer></app-footer>

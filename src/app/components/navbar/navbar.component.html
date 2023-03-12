@@ -1,6 +1,6 @@
 <div class="glint"></div>
 <div class="Navbar">
-    <img src="assets/images/Jamport_transparent.png" class="Logo" height="50px">
+    <img src="assets/images/Jamport_transparent.png" class="Logo" height="50px" style="left: 8px; position: absolute;">
     <div class="Link">
     <a class="Home" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
     <div class="dropdown">
@@ -17,14 +17,9 @@
     <a class="Contact" routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a>
     <a class="Story" routerLink="/story" routerLinkActive="active" ariaCurrentWhenActive="page">Our Story</a>
     </div>
-    <div class="wrapper">
-      <div class="nav-toggle">
-        <div class="icon"></div>
-      </div>
-    </div>
         <div class=hamburger >
           <div class="dropdown_2">
-              <button class="dropbtn_2">
+              <button class="dropbtn_2" (click)="dropdownClick()">
                 <svg class="ham hamRotate ham7" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')" id="hamburger">
                   <path
                         class="line top"
@@ -37,7 +32,7 @@
                         d="m 69.575405,67.073826 h -40 c -5.592752,0 -6.873604,-9.348582 1.371031,-9.348582 8.244634,0 19.053564,21.797129 19.053564,12.274756 l 0,-40" />
                 </svg>
               </button>
-              <div class="dropdown_2-content" id="dropdown">
+              <div class="dropdown_2-content" id="dropdown" *ngIf="showMenu" [@fadeInOutAnimation]>
                 <a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
                 <a routerLink="/artist/trek" routerLinkActive="active" ariaCurrentWhenActive="page">Artists</a>
                 <a routerLink="/contact" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</a>
