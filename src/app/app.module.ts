@@ -10,7 +10,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
-import { RaileyComponent } from './pages/artists/railey/railey.component';
+import { ArtistComponent } from './pages/artists/artist.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,13 +22,14 @@ import { RaileyComponent } from './pages/artists/railey/railey.component';
     StoryComponent,
     ContactComponent,
     ImpressumComponent,
-    RaileyComponent,
+    ArtistComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

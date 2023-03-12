@@ -1,1 +1,39 @@
-{}
+[
+    {
+      "name": "Railey",
+      "format_name":"railey",
+      "img": "assets/images/railey.png",
+      "desc": "Railey, a lofi artist from Ulm, Germany, started making music as a teenager, experimenting with different sounds and styles. His first release, Horizons was a dreamy, atmospheric track that showcased his ability to create songs that immerse the listener and was just the first demonstration of his potential.<br><br>As Railey's music evolved, he began to incorporate more live instrumentation into his productions, and his second single, Sunset featured a blend of electronic beats and smooth guitar riffs. He continued to hone his craft with the release of Lounge a downtempo track that perfectly captured the mood of a lazy afternoon spent lounging.<br><br>Railey's debut album, Memories was a culmination of his diverse influences and experiences. The album featured a mix of electronic and live instrumentation, and its nostalgic, melodic soundscapes transported listeners to a world of dreamy, hazy memories.<br><br>Railey's subsequent releases, Days and Snowflake showcased his range as a producer, with the former being a downtempo groover that evokes the feeling of a lazy summer's day, and the latter being a more experimental, ambient track.<br><br>Most recently, Railey was featured on fellow artist T R E K's latest album, Hazy Days. The collaboration resulted in a dreamy, nostalgic track that perfectly captured the vibe of the album's title and solidified Railey as a rising talent in the world of lofi music.",
+      "spfy": "https://open.spotify.com/artist/1W3u3PSYtoA7OQ3lHpKK7G?si=Ow_1BnYrR02HeAELHgfYVQ",
+      "apl": "https://music.apple.com/tz/artist/railey/1596647020",
+      "amzn": "https://music.amazon.de/artists/B09MKW2DFT/railey"
+    },
+    {
+      "name": "T R E K",
+      "format_name":"trek",
+      "img": "assets/images/trek.png",
+      "desc": "",
+      "spfy": "",
+      "apl": "",
+      "amzn": ""
+    },
+    {
+      "name": "maraville",
+      "format_name":"maraville",
+      "img": "assets/images/maraville.png",
+      "desc": "",
+      "spfy": "",
+      "apl": "",
+      "amzn": ""
+    },
+    {
+      "name": "M I R A G E",
+      "format_name":"mirage",
+      "img": "assets/images/mirage.png"
+    },
+    {
+      "name": "hamie",
+      "format_name":"hamie",
+      "img": "assets/images/hamie.png"
+    }
+  ]

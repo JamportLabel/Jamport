@@ -1,4 +1,3 @@
-import { animate, query, style, transition, trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 import { crossFadeAnimation } from './animations';
 
@@ -10,6 +9,4 @@ import { crossFadeAnimation } from './animations';
     crossFadeAnimation
   ]
 })
-export class AppComponent {
-  title = 'Jamport';
-}
+export class AppComponent{}

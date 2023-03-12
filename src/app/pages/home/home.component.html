@@ -19,25 +19,9 @@
         <h1 class="Title">Our artists:</h1>
         <div class="Center_Horizontal">
             <div class="Artists">
-                <div class="Artist">
-                    <a routerLink="/artist/trek"><img src="assets\images\trek.png"></a>
-                    <p class="Artist_Text">T R E K</p>
-                </div>
-                <div class="Artist">
-                    <a routerLink="/artist/railey"><img src="assets\images\railey.png"></a>
-                    <p class="Artist_Text">Railey</p>
-                </div>
-                <div class="Artist">
-                    <a routerLink="/artist/mirage"><img src="assets\images\mirage.png"></a>
-                    <p class="Artist_Text">M I R A G E</p>
-                </div>
-                <div class="Artist">
-                    <a routerLink="/artist/maraville"><img src="assets\images\maraville.png"></a>
-                    <p class="Artist_Text">Maraville</p>
-                </div>
-                <div class="Artist">
-                    <a routerLink="/artist/railey"><img src="assets\images\hamie.png"></a>
-                    <p class="Artist_Text">Hamie</p>
+                <div *ngFor="let artist of artists" class="Artist">
+                    <a [routerLink]="'/artist/'+artist.format_name"><img [src]="artist.img"></a>
+                    <p class="Artist_Text">{{artist.name}}</p>
                 </div>
             </div>
         </div>

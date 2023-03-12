@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RaileyComponent } from './pages/artists/railey/railey.component';
+import { ArtistComponent } from './pages/artists/artist.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ImpressumComponent } from './pages/impressum/impressum.component';
@@ -13,9 +13,7 @@ const routes: Routes = [
   {path:'impressum', component:ImpressumComponent},
   {path:'story', component:StoryComponent},
   {path:'privacy', component:PrivacyComponent},
-  {path:'artist', children:[
-    {path:'railey', component:RaileyComponent},
-  ]},
+  {path:'artist/:name', component: ArtistComponent},
 ];
 
 @NgModule({
