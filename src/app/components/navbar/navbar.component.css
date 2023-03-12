@@ -100,7 +100,6 @@
       z-index: 1;
       right: 5px;
     }
-    
     .dropdown_2-content a {
       background-color: #2E2E2E;
       color: rgba(151, 151, 151, 1);
@@ -109,14 +108,16 @@
       display: grid;
       width: 90px;
       right: 15px;
+      font-weight: bold;
+      text-align: center;
     }
     
-  
-    .dropdown_2-content a  {
+    .dropdown_2-content a:hover  {
       background-color: #2E2E2E;
       color: white;
+      cursor: pointer;
+      
     }
-    
     .dropdown_2 .dropdown_2-content {
       display: block;
       transition: opacity 3s ease;
