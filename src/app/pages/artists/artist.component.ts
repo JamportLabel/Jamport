@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from 'src/app/data.service';
 
 @Component({
@@ -8,17 +8,21 @@ import { DataService } from 'src/app/data.service';
   styleUrls: ['./artist.component.css']
 })
 export class ArtistComponent {
-  artists: any;
-  artistName: any;
+  artist: any
 
-  constructor(private route: ActivatedRoute, private dataService: DataService) {}
+  constructor(private route: ActivatedRoute,
+    private dataService: DataService,
+    private router: Router) {}
 
   ngOnInit() {
-    this.artistName = this.route.snapshot.params['name'];
-    this.dataService.getJsonData().subscribe(data => {
-      this.artists = data;
-      if (!this.artists.some((item: { format_name: any; }) => item.format_name === this.artistName)) {
+    var artistName = this.route.snapshot.params['name'];
+    this.dataService.getJsonData().subscribe(artists => {
+      var artist = artists.find((item: { format_name: any; }) => item.format_name === artistName);
+      if (!artist) {
         this.router.navigate(['/']);
+      }
+      else {
+        this.artist = artist;
       }
     });
   }
