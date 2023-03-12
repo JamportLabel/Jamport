@@ -2,9 +2,16 @@
   display: block;
   width: 100%;
 }
-html{
+
+html {
   scroll-behavior: smooth;
+  user-select: none;
 }
+
+h1, p, h2 {
+  user-select: text;
+}
+
 body {
     margin: 0;
     padding: 0;

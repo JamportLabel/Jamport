@@ -3,8 +3,8 @@
     width: 100%;
     position: static;
     margin: 0 auto;
-    user-select: none;
 }
+
 .Slogan {
     font-size: 2.4vw;
     color: white;
@@ -86,6 +86,7 @@
     width: 85%;
     gap: 40px;
 }
+
 @media (max-width:1817px) {
     .Releases {
         display: flex;
