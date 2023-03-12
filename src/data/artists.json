@@ -3,7 +3,7 @@
       "name": "Railey",
       "format_name":"railey",
       "img": "assets/images/railey.png",
-      "desc": "Railey, a lofi artist from Ulm, Germany, started making music as a teenager, experimenting with different sounds and styles. His first release, Horizons was a dreamy, atmospheric track that showcased his ability to create songs that immerse the listener and was just the first demonstration of his potential.<br><br>As Railey's music evolved, he began to incorporate more live instrumentation into his productions, and his second single, Sunset featured a blend of electronic beats and smooth guitar riffs. He continued to hone his craft with the release of Lounge a downtempo track that perfectly captured the mood of a lazy afternoon spent lounging.<br><br>Railey's debut album, Memories was a culmination of his diverse influences and experiences. The album featured a mix of electronic and live instrumentation, and its nostalgic, melodic soundscapes transported listeners to a world of dreamy, hazy memories.<br><br>Railey's subsequent releases, Days and Snowflake showcased his range as a producer, with the former being a downtempo groover that evokes the feeling of a lazy summer's day, and the latter being a more experimental, ambient track.<br><br>Most recently, Railey was featured on fellow artist T R E K's latest album, Hazy Days. The collaboration resulted in a dreamy, nostalgic track that perfectly captured the vibe of the album's title and solidified Railey as a rising talent in the world of lofi music.",
+      "desc": "Railey, a lofi artist from Ulm, Germany, started making music as a teenager, experimenting with different sounds and styles. His first release, Horizons was a dreamy, atmospheric track that showcased his ability to create songs that immerse the listener and was just the first demonstration of his potential. As Railey's music evolved, he began to incorporate more live instrumentation into his productions, and his second single, Sunset featured a blend of electronic beats and smooth guitar riffs. He continued to hone his craft with the release of Lounge a downtempo track that perfectly captured the mood of a lazy afternoon spent lounging. Railey's debut album, Memories was a culmination of his diverse influences and experiences. The album featured a mix of electronic and live instrumentation, and its nostalgic, melodic soundscapes transported listeners to a world of dreamy, hazy memories. Railey's subsequent releases, Days and Snowflake showcased his range as a producer, with the former being a downtempo groover that evokes the feeling of a lazy summer's day, and the latter being a more experimental, ambient track. Most recently, Railey was featured on fellow artist T R E K's latest album, Hazy Days. The collaboration resulted in a dreamy, nostalgic track that perfectly captured the vibe of the album's title and solidified Railey as a rising talent in the world of lofi music.",
       "spfy": "https://open.spotify.com/artist/1W3u3PSYtoA7OQ3lHpKK7G?si=Ow_1BnYrR02HeAELHgfYVQ",
       "apl": "https://music.apple.com/tz/artist/railey/1596647020",
       "amzn": "https://music.amazon.de/artists/B09MKW2DFT/railey"
@@ -12,28 +12,36 @@
       "name": "T R E K",
       "format_name":"trek",
       "img": "assets/images/trek.png",
-      "desc": "",
-      "spfy": "",
-      "apl": "",
-      "amzn": ""
+      "desc": "TREK is a rising lofi artist based in Ulm, Germany. He started producing music in August 2022 and quickly gained a following with his dreamy, atmospheric sound. With three releases and one EP under his belt, TREK is making a name for himself in the world of lofi music. His first release, Chill Outside, introduced listeners to his unique sound and showcased his ability to create immersive songs. With the release of Dreaming and Rain, TREK continued to demonstrate his versatility and talent for creating moody soundscapes. The highlight of TREK's discography so far is his EP Hazy Days. The EP features three songs, Tides, Blossom, and Dawn, the latter of which is a collaboration with fellow lofi artist Railey. Dawn perfectly captures the vibe of the album's title, showcasing TREK's nostalgic, melodic soundscapes. TREK's music is a blend of electronic beats and live instrumentation, which creates a unique and captivating sound. His dreamy, hazy sound transports listeners to a world of memories and transports them to a place of peace and calm.  With his first three releases and the Hazy Days EP, TREK has established himself as a rising talent in the world of lofi music. He continues to experiment with different sounds and styles, showcasing his versatility and range as a producer. As he continues to release new music, TREK is sure to captivate more and more listeners with his unique sound and dreamy atmosphere.",
+      "spfy": "https://open.spotify.com/artist/1WlkmD0YWcP0XtKvnmzAoK",
+      "apl": "https://music.apple.com/tz/artist/t-r-e-k/1648824093",
+      "amzn": "https://music.amazon.de/artists/B0BHRH8VKZ/t-r-e-k"
     },
     {
       "name": "maraville",
       "format_name":"maraville",
       "img": "assets/images/maraville.png",
       "desc": "",
-      "spfy": "",
-      "apl": "",
-      "amzn": ""
+      "spfy": "https://open.spotify.com/artist/7GrGcNbp9Dc2nYjfH1dVap",
+      "apl": "https://music.apple.com/tz/artist/maraville/1670809333",
+      "amzn": "https://music.amazon.de/artists/B01MZZ0TB3/maraville"
     },
     {
       "name": "M I R A G E",
       "format_name":"mirage",
-      "img": "assets/images/mirage.png"
+      "img": "assets/images/mirage.png",
+      "desc": "",
+      "spfy": "https://open.spotify.com/artist/1LauICSmUxw4EJQvibNexH",
+      "apl": "https://music.apple.com/tz/artist/m-i-r-a-g-e/1597758331",
+      "amzn": "https://music.amazon.de/artists/B09MR261DM/m-i-r-a-g-e"
     },
     {
       "name": "hamie",
       "format_name":"hamie",
-      "img": "assets/images/hamie.png"
+      "img": "assets/images/hamie.png",
+      "desc": "",
+      "spfy": "https://open.spotify.com/artist/75vOPMLIQOa390iYxarB87",
+      "apl": "https://music.apple.com/tz/artist/hamie/1671371659",
+      "amzn": "https://music.amazon.de/artists/B09FZNRWM9/hamie"
     }
   ]

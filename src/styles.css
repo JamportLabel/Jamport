@@ -13,26 +13,6 @@ body {
     font-weight: normal;
     overflow-x: hidden;
 }
-@font-face {
-  font-family: "Inter";
-  src: url("assets/fonts/Inter-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("assets/fonts/Inter-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("assets/fonts/Inter-Light.ttf") format("truetype");
-  font-weight: lighter;
-  font-style: normal;
-}
 ::-webkit-scrollbar {
   width: 14px;
 }
