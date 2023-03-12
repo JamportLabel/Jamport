@@ -15,15 +15,17 @@ export class ArtistComponent {
     private router: Router) {}
 
   ngOnInit() {
-    var artistName = this.route.snapshot.params['name'];
-    this.dataService.getJsonData().subscribe(artists => {
-      var artist = artists.find((item: { format_name: any; }) => item.format_name === artistName);
-      if (!artist) {
-        this.router.navigate(['/']);
-      }
-      else {
-        this.artist = artist;
-      }
+    this.route.params.subscribe(params => {
+      const artistName = params['name'];
+      this.dataService.getJsonData().subscribe(artists => {
+        var artist = artists.find((item: { format_name: any; }) => item.format_name === artistName);
+        if (!artist) {
+          this.router.navigate(['/']);
+        }
+        else {
+          this.artist = artist;
+        }
+      });
     });
   }
 }
