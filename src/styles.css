@@ -20,6 +20,7 @@ body {
     font-weight: normal;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
   width: 14px;
 }

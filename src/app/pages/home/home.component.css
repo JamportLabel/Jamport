@@ -103,7 +103,12 @@
 
 .Artist p {
     font-size: 1.8vw;
-    max-width: 240px;
+}
+
+@media (min-width:1555px) {
+    .Artist p {
+        font-size: 28px;
+    }
 }
 
 img {
@@ -119,6 +124,16 @@ img {
     position: relative;
     left: 40px;
     color: white;
+    font-size: 3vw;
+}
+
+@media (min-width:1068px) {
+    .Title {
+        position: relative;
+        left: 40px;
+        color: white;
+        font-size: 32px;
+    }
 }
 
 .Center_Horizontal {
