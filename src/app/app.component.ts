@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { crossFadeAnimation } from './animations';
 import { Title } from '@angular/platform-browser';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,6 @@ export class AppComponent {
   constructor(
     private titleService: Title,
     private router: Router,
-    private route: ActivatedRoute
   ) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
@@ -25,23 +24,16 @@ export class AppComponent {
     });
   }
 
-  private  getPageTitle(url: string): string {
-    if(url.includes('/artist/')){
-      const name = this.route.snapshot.paramMap.get('name');
-        return name ? name : 'Artists';
+  private getPageTitle(url: string): string {
+    if (url.includes('/artist/')) {
+      const pathSegments = url.split('/');
+      const nameIndex = pathSegments.indexOf('artist') + 1;
+      const name = 'Artist - '+pathSegments[nameIndex].charAt(0).toUpperCase() + pathSegments[nameIndex].slice(1);
+      return name ?? 'Artists';
     }
     switch (url) {
       case '/':
         return 'Jamport';
-        case '/artists':
-          if (url.includes('/artist/')) {
-            const pathSegments = url.split('/');
-            const nameIndex = pathSegments.indexOf('artist') + 1;
-            const name = pathSegments[nameIndex];
-            return name ? name : 'Artists';
-          } else {
-            return 'Artists';
-          }
       case '/contact':
         return 'Contact';
       case '/story':

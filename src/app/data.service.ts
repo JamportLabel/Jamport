@@ -14,13 +14,11 @@ export class DataService {
 
   public getJsonData(): Observable<any> {
     if (this.jsonData) {
-      // If we've already fetched the data, return it as an Observable
       return new Observable(observer => {
         observer.next(this.jsonData);
         observer.complete();
       });
     } else {
-      // If we haven't fetched the data yet, fetch it and store it
       return this.http.get('/data/artists.json').pipe(
         map(data => {
           this.jsonData = data;
