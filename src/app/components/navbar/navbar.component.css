@@ -134,7 +134,6 @@
     }
 }
 
-
 .Home{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
@@ -219,7 +218,6 @@
     overflow: hidden;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: transparent;
     color: white;
