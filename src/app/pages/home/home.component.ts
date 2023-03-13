@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/data.service';
+import { Title } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-home',
@@ -9,7 +11,9 @@ import { DataService } from 'src/app/data.service';
 export class HomeComponent implements OnInit {
   artists: any;
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService, /*private titleService: Title*/) { 
+    /*this.titleService.setTitle('Gay')*/
+  }
 
   ngOnInit() {
     this.dataService.getJsonData().subscribe(data => {
@@ -21,4 +25,6 @@ export class HomeComponent implements OnInit {
   roundedClick(): void {
     document.getElementById('Seperator')!.scrollIntoView();
   }
+
+
 }
