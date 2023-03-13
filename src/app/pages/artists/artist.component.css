@@ -8,11 +8,16 @@
 .Name_Name{
     display: flex;
     padding-left: 30px;
-    justify-content: left;
-    flex-wrap: wrap;
-    width: 195px;
-    max-width: 1150px;
+    justify-content:left;
+    width: auto;
     gap: 4px;
+    
+    
+}
+.platforms{
+    position: absolute;
+    margin-top: 74px;
+    left: 180px;
 }
 
 .Title{
